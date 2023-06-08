@@ -19,9 +19,9 @@ The solution is by no means intended to be a finished product, but the code shou
 
 Solutions must be in Python 3.10+.
 
-* Use [CMA’s Open Access API] (https://openaccess-api.clevelandart.org/) to extract a “highlight” artwork based on criteria you decide (e.g. biggest, smallest, oldest, longest artist first name, etc.) from a [CMA exhibition] (https://www.clevelandart.org/exhibitions) of your choosing (current or past) that has at least 8 CMA-owned works (CMA exhibitions often have many works on loan. The API response will only show CMA-owned works. You may have to look at a few exhibitions to find one with more than 8 works!).  
+* Use [CMA’s Open Access API](https://openaccess-api.clevelandart.org/) to extract a “highlight” artwork based on criteria you decide (e.g. biggest, smallest, oldest, longest artist first name, etc.) from a [CMA exhibition](https://www.clevelandart.org/exhibitions) of your choosing (current or past) that has at least 8 CMA-owned works (CMA exhibitions often have many works on loan. The API response will only show CMA-owned works. You may have to look at a few exhibitions to find one with more than 8 works!).  
 * Use the API to find 5 artworks (in or out of the exhibition you chose) that are related by one or more criteria in the artwork data to create a “mini exhibition”. 
-* Set up a data source in [MongoDB Atlas] (https://www.mongodb.com/). If you don’t have an account, you can sign up for a free one here: [https://www.mongodb.com/cloud/atlas/register] (https://www.mongodb.com/cloud/atlas/register). 
+* Set up a data source in [MongoDB Atlas](https://www.mongodb.com/). If you don’t have an account, you can sign up for a free one here: [https://www.mongodb.com/cloud/atlas/register](https://www.mongodb.com/cloud/atlas/register). 
 * Use the Atlas API to insert the following data into a Mongo collection:
   * athena id
   * accession number
