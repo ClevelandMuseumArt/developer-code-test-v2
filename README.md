@@ -32,7 +32,9 @@ Solutions must be in Python 3.10+.
 
 ## Documentation
 
-Briefly answer the following questions about the exercise above:
+Document the steps necessary to set up and run your application. Include any relevant details with regards to additional modules or runtime environment. **This is an important step; running the application will be part of the evaluation process.**
+
+Also, briefly answer the following questions about the exercise above:
 
 * How did you approach this problem and why you end up with the solution you did?
 * How long did it take you to complete?
